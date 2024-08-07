@@ -13,6 +13,8 @@
 module purge
 ml Miniconda3
 source /home/jplans/miniconda3/etc/profile.d/conda.sh
+
 conda activate dades
 
-~/miniconda3/envs/dades/bin/python carrega_pdbind.py
+# cal modificar els paths segons l'adreça del repositori
+~/miniconda3/envs/dades/bin/python /home/jplans/Molecular-Docking-Project/pdb_files/carrega_pdbind.py
