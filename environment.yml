@@ -1,4 +1,4 @@
-name: dades
+ame: dades
 channels:
   - conda-forge
   - defaults
