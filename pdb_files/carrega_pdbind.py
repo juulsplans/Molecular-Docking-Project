@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-with open('def_trajectories/downloadfile.htm', 'r', encoding='utf-8') as file:
+with open('downloadfile.htm', 'r', encoding='utf-8') as file:
     content = file.read()
 
 # Analitzar el contingut HTML
@@ -17,7 +17,7 @@ links = soup.find_all('a')
 base_url = 'http://www.pdbbind.org.cn/v2007/'
 
 # Director per guardar els fitxers descarregats
-download_dir = 'home/def_trajectories/pdb_files'
+download_dir = 'pdb_files'
 
 if not os.path.exists(download_dir):
     os.makedirs(download_dir)
