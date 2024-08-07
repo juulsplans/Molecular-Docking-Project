@@ -11,4 +11,4 @@
 #SBATCH --qos=short_gpu
 
 
-python /pdb_files/carrega_pdbind.py
+python pdb_files/carrega_pdbind.py
