@@ -85,6 +85,8 @@ Un cop tinguis els fitxers PDB, segueix els passos següents per crear els datal
      sbatch ligand_protein.sh
      ```
 **Caldrà canviar els paths dels fitxers per tal de no obtenir errors d'adreçes**
+
+
 Amb aquests passos finalment tindrem els dataloaders preparats per al model.
 
 
