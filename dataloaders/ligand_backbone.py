@@ -101,7 +101,7 @@ class SimpleDataset(Dataset):
         return sample
 
 # Directori de fitxers PDB
-directory_path = '/home/jplans/home/def_trajectories/pdb_files/'
+directory_path = 'def_trajectories/pdb_files/'
 
 # Llistem tots els fitxers dins de la carpeta especificada
 files_paths = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
