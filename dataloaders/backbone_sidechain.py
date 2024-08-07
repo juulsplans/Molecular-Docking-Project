@@ -161,8 +161,8 @@ class SimpleDataset(Dataset):
         sample = {'features': data, 'label': labels}
         return sample
 
-
-directory_path = 'def_trajectories/pdb_files/'
+# modificar el path segons convingui
+directory_path = '/home/jplans/Molecular-Docking-Project/pdb_files/pdb_files'
 files_paths = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
 
 dataset = SimpleDataset(files_paths)
