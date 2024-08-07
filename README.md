@@ -8,14 +8,14 @@ Aquest projecte utilitza un entorn virtual de Python per gestionar les seves dep
 
    - Windows:
      ```bash
-     python -m venv env
-     .\env\Scripts\activate
+     python -m venv dades
+     .\dades\Scripts\activate
      ```
 
    - MacOS/Linux:
      ```bash
-     python3 -m venv env
-     source env/bin/activate
+     python3 -m venv dades
+     source dades/bin/activate
      ```
 
 2. **Instal·la les dependències**:
@@ -30,11 +30,11 @@ Aquest projecte utilitza un entorn virtual de Python per gestionar les seves dep
 
 1. **Crear l'entorn:**
 ```
-conda env create -f environment.yml
+conda dades create -f environment.yml
 ```
 2. **Activar l'entorn**
 ```
-conda activate env
+conda activate dades
 ```
 
 
