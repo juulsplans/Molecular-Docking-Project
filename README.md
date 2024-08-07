@@ -30,7 +30,7 @@ Aquest projecte utilitza un entorn virtual de Python per gestionar les seves dep
 
 1. **Crear l'entorn:**
 ```
-conda dades create -f environment.yml
+conda env create -f environment.yml
 ```
 2. **Activar l'entorn**
 ```
