@@ -10,6 +10,12 @@
 #SBATCH --partition gpu_short 
 #SBATCH --qos=short_gpu
 
-# ~/miniconda3/envs/dades/bin/python /home/jplans/dataloaders/backbone_sidechain.py
-python dataloaders/backbone_sidechain.py
+module purge
+ml Miniconda3
+source /home/jplans/miniconda3/etc/profile.d/conda.sh
+
+conda activate dades
+
+~/miniconda3/envs/dades/bin/python /home/jplans/dataloaders/backbone_sidechain.py
+
 
