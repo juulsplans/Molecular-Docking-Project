@@ -10,5 +10,9 @@
 #SBATCH --partition gpu_short 
 #SBATCH --qos=short_gpu
 
+module purge
+ml Miniconda3
+source /home/jplans/miniconda3/etc/profile.d/conda.sh
+conda activate dades
 
-python pdb_files/carrega_pdbind.py
+~/miniconda3/envs/dades/bin/python carrega_pdbind.py
