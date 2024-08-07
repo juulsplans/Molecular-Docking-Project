@@ -16,6 +16,6 @@ source /home/jplans/miniconda3/etc/profile.d/conda.sh
 
 conda activate dades
 
-~/miniconda3/envs/dades/bin/python /home/jplans/dataloaders/backbone_sidechain.py
+~/miniconda3/envs/dades/bin/python /dataloaders/backbone_sidechain.py
 
 
