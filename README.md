@@ -24,3 +24,17 @@ Aquest projecte utilitza un entorn virtual de Python per gestionar les seves dep
 
    ```bash
    pip install -r requirements.txt
+
+
+## Opció 2: Configuració amb 'environment.yml'
+
+1. **Crear l'entorn:**
+```
+conda env create -f environment.yml
+```
+2. **Activar l'entorn**
+```
+conda activate env
+```
+
+
