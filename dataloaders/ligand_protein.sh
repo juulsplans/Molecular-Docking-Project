@@ -10,10 +10,4 @@
 #SBATCH --partition gpu_short 
 #SBATCH --qos=short_gpu
 
-module purge
-ml Miniconda3
-source /home/jplans/miniconda3/etc/profile.d/conda.sh
-
-conda activate dades
-
-~/miniconda3/envs/dades/bin/python /home/jplans/dataloaders/ligand_protein.py
+python dataloaders/ligand_protein.py
