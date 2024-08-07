@@ -55,17 +55,13 @@ A continuació es descriu els passos necessaris per carregar les dades, necessit
 Una vegada tenim els fitxers pdb ja podem crear els dataloaders sobre els quals podrem recòrrer en batches les dades carregades. 
 # Instruccions per a la Creació de Dataloaders
 
-Aquest document descriu els passos necessaris per generar els dataloaders al nostre clúster a partir dels fitxers PDB.
+Seguidament, els passos necessaris per generar els dataloaders a partir dels fitxers PDB.
 
 ## Creació dels Dataloaders
 
 Un cop tinguis els fitxers PDB, segueix els passos següents per crear els dataloaders necessaris per al model:
 
-1. **Entrar al clúster que fem servir**:
-
-   Assegura't d'iniciar sessió al clúster que utilitzem per a la gestió i processament de dades.
-
-2. **Executa els scripts per crear els dataloaders**:
+1. **Executa els scripts per crear els dataloaders**:
 
    Navega fins a la carpeta `dataloaders` i executa els següents scripts:
 
@@ -87,7 +83,7 @@ Un cop tinguis els fitxers PDB, segueix els passos següents per crear els datal
      sbatch ligand_protein.sh
      ```
 
-Amb aquests passos tindrem els dataloaders preparats per al model.
+Amb aquests passos finalment tindrem els dataloaders preparats per al model.
 
 
 
