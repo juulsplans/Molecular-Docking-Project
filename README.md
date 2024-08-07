@@ -2,6 +2,8 @@
 
 Aquest projecte utilitza un entorn virtual de Python per gestionar les seves dependències. A continuació s'expliquen les instruccions per configurar l'entorn utilitzant dos mètodes diferents: `requirements.txt` i `environment.yml`.
 
+El primer pas, és **entrar al clúster** de confiança. Per a l'execució d'aquest projecte es requereixen recursos computacionals alts per tal de fer-ho amb un temps eficient i tenir suficient memòria. 
+
 ## Opció 1: Configuració amb `requirements.txt`
 
 1. **Crea i activa un entorn virtual**:
@@ -43,7 +45,7 @@ A continuació es descriu els passos necessaris per carregar les dades, necessit
 
 ## Passos per a la Creació de Fitxers `pdb_files`
 
-1. **Entrar al clúster que fem servir**:
+1. **Entrar al clúster que fem servir i activar el environment com hem ensenyat anteriorment**:
 2. **Crear els fitxers PDB**:
 
    Navega fins a la carpeta `pdb_files` i executa el següent comandament per generar els fitxers:
@@ -82,7 +84,7 @@ Un cop tinguis els fitxers PDB, segueix els passos següents per crear els datal
      ```bash
      sbatch ligand_protein.sh
      ```
-
+**Caldrà canviar els paths dels fitxers per tal de no obtenir errors d'adreçes**
 Amb aquests passos finalment tindrem els dataloaders preparats per al model.
 
 
